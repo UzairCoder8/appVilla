@@ -1,0 +1,50 @@
+#header{
+    background-color: #ff6b81;
+}
+header .btn-outline-light{
+    padding: 10px 25px;
+}
+header .btn-outline-light:hover{
+    color: #ff6b81;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand img{
+    width: 160px;
+}
+.navbar-nav{
+    gap: 20px;
+}
+.hero-btns .left-btn{
+    background-color: white;
+    color: #ff6b81;
+    padding: 13px 30px;
+}
+.hero-btns .btn-right{
+    padding: 13px 35px;
+}
+.hero-btns .left-btn:hover{
+    background-color: #081828;
+    border: 1px solid #081828;
+    color: white;
+}
+#feature .feature-top-sect p{
+    color: #ff6b81;
+}
+.feature-card{
+    background-color: white;
+    padding: 35px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.icon-box{
+    width: 60px;
+    height: 60px;
+    background-color: #ff6b81;
+    border-radius: 7px;
+
+}
+.feature-card i{
+    color: white;
+}
