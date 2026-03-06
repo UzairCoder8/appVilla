@@ -1,50 +1,106 @@
-#header{
-    background-color: #ff6b81;
+#header {
+  background-color: #ff6b81;
 }
-header .btn-outline-light{
-    padding: 10px 25px;
+header .btn-outline-light {
+  padding: 10px 25px;
 }
-header .btn-outline-light:hover{
-    color: #ff6b81;
+header .btn-outline-light:hover {
+  color: #ff6b81;
 }
-.nav-link{
-    color: white;
+.nav-link {
+  color: white;
 }
-.navbar-brand img{
-    width: 160px;
+.navbar-brand img {
+  width: 160px;
 }
-.navbar-nav{
-    gap: 20px;
+.navbar-nav {
+  gap: 20px;
 }
-.hero-btns .left-btn{
-    background-color: white;
-    color: #ff6b81;
-    padding: 13px 30px;
+.hero-btns .left-btn {
+  background-color: white;
+  color: #ff6b81;
+  padding: 13px 30px;
 }
-.hero-btns .btn-right{
-    padding: 13px 35px;
+.hero-btns .btn-right {
+  padding: 13px 35px;
 }
-.hero-btns .left-btn:hover{
-    background-color: #081828;
-    border: 1px solid #081828;
-    color: white;
+.hero-btns .left-btn:hover {
+  background-color: #081828;
+  border: 1px solid #081828;
+  color: white;
 }
-#feature .feature-top-sect p{
-    color: #ff6b81;
+#feature .feature-top-sect p {
+  color: #ff6b81;
 }
-.feature-card{
-    background-color: white;
-    padding: 35px;
-    margin-top: 30px;
-    border-radius: 6px;
+.feature-card {
+  background-color: white;
+  padding: 35px;
+  margin-top: 30px;
+  border-radius: 6px;
 }
-.icon-box{
-    width: 60px;
-    height: 60px;
-    background-color: #ff6b81;
-    border-radius: 7px;
-
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background-color: #ff6b81;
+  border-radius: 7px;
 }
-.feature-card i{
-    color: white;
+.feature-card i {
+  color: white;
+}
+#stats {
+  background-color: #ff6b81;
+}
+#stats .stats-info {
+  width: 800px;
+  margin: 0 auto;
+}
+.stats-sect {
+  padding: 130px 0px;
+}
+#stats h3 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#stats .info-heading {
+  font-size: 35px;
+  font-weight: 800;
+}
+#purchase {
+  background-color: #ff6b81;
+  padding: 100px 0px;
+}
+.purchase-btn .btn {
+  background: white;
+  padding: 13px 30px;
+  color: #ff6b81;
+}
+.purchase-btn .btn:hover {
+  background-color: #081828;
+  color: white;
+}
+.pri-heading {
+  color: #ff6b81;
+}
+.pricing-sect {
+  padding: 100px 0px;
+}
+.price-btn {
+  display: block;
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  text-decoration: none;
+  padding: 8px 0;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+.price-btn:hover {
+  background-color: #ff6b81;
+}
+.features-list li {
+  margin-bottom: 10px;
+}
+.features-list li i {
+  color: #ff6b81;
+  margin-right: 8px;
 }
