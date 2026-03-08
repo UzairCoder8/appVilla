@@ -37,6 +37,13 @@ header .btn-outline-light:hover {
   padding: 35px;
   margin-top: 30px;
   border-radius: 6px;
+  transition: 0.4s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.feature-card:hover {
+  cursor: pointer;
+  transform: translateY(-10px) rotateZ(-1deg);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 .icon-box {
   width: 60px;
@@ -94,6 +101,15 @@ header .btn-outline-light:hover {
   border-radius: 5px;
   margin: 15px 0;
 }
+.price-card {
+  transition: 0.4s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.price-card:hover {
+  cursor: pointer;
+  transform: translateY(-10px) rotateZ(-1deg);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
 .price-btn:hover {
   background-color: #ff6b81;
 }
@@ -108,17 +124,54 @@ header .btn-outline-light:hover {
   background-color: #081828;
   padding: 100px 0px;
 }
-.footer-logo img{
+.footer-logo img {
   width: 180px;
 }
-#footer a{
+#footer a {
   text-decoration: none;
   color: white;
   display: inline-block;
 }
-#footer a:hover{
+#footer a:hover {
   color: #ff6b81;
 }
 .footer-list-link {
   margin-bottom: 12px;
+}
+.footer-icons i:hover{
+  cursor: pointer;
+  color: #ff6b81;
+}
+.scroll-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background: #ff6b6b;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  z-index: 999;
+}
+
+/* show button when scrolling */
+.scroll-top.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* hover animation */
+.scroll-top:hover {
+  background: #081828;
+  transform: translateY(-10px);
 }
